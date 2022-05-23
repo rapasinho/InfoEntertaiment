@@ -1,0 +1,46 @@
+body{
+    background-image: url(../img/fondo.png); /*fondo de la web*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+navbar-nav{
+    position : relative;
+    z-index: 2;
+    font-size : 11pt;
+    margin-top : 72px
+}
+
+#home .list-news-movies {
+    height: 100%;
+}
+
+#home .now-playing h2,
+#home .top-rated-playing h2 {
+    text-align: center;
+    padding: 15px 0;
+    margin: 50px 0 0 0;
+    background: linear-gradient(-45deg, #040d88, #2b5d9e, #23a6d5, #23c9d5);
+}
+#home .now-playing__list li,
+#home .top-rated-playing__list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+#home .now-playing__list li h3,
+#home .top-rated-playing__list li h3 {
+    margin: 0;
+    font-size: 16px;
+}
+#home .now-playing__list img,
+#home .top-rated-playing__list img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+

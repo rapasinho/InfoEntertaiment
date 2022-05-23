@@ -1,0 +1,32 @@
+body{
+    background-image: url(../img/fondo.png); /*fondo de la web*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#search #search-movie {
+    margin-bottom: 40px;
+}
+
+#search .custom-card {
+    padding: 20px;
+}
+#search .custom-card img {
+    height: 100%;
+}
+
+/*posicionamiento del footer siempre abajo*/
+footer {
+    
+    position: fixed;
+    bottom: 0;    
+    width: 100%;    
+    height: 32px;    
+    padding-bottom: 16px;    
+    background: transparent;   
+    z-index:2000;
+    text-align: end;
+    color: black;
+    
+}
