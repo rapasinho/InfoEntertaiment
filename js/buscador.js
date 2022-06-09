@@ -26,7 +26,7 @@ const searchMovies = async () => {
                         <div class="card-body">
                             <h5 class="card-title">${title}</h5>
                             <p class="card-text">${overview.substr(0, 40)}...</p>
-                            <a href="${urlMoreInfo}" class="btn btn-primary">Var más</a>
+                            <a href="${urlMoreInfo}" class="btn btn-primary">Ver más</a>
                         </div>
                     </div>
                 </div>
